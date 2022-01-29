@@ -1,0 +1,33 @@
+.container {
+  background-color: #fff;
+  width: 300px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+.aside_header {
+  color: #01b2ee;
+  font-size: 28px;
+  margin-bottom: 20px;
+  padding: 20px 0 20px 20px;
+  border-bottom: 1px solid #ccc;
+}
+.aside_list_item_link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.aside_list_item_text {
+  color: #4f5864;
+  font-weight: 400;
+}
+
+.aside_list_item_number {
+  font-size: 13px;
+  color: #aaa;
+}
+
+.aside_list_item_link:hover .aside_list_item_text {
+  color: #01b2ee;
+}

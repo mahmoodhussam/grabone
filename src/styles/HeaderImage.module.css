@@ -1,0 +1,9 @@
+.image {
+  background-image: url("../../public/images/ad-image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  width: 100vw;
+  height: 220px;
+  margin-bottom: 80px;
+}

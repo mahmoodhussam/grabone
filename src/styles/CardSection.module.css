@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 90%;
+  margin: 80px auto;
+}
+.section_container {
+  display: flex;
+  margin-bottom: 20px;
+}
+.title {
+  cursor: pointer;
+  margin-right: 30px;
+}
+.title:hover {
+  color: #01b2ee;
+}
+.view_more {
+  color: #fff;
+  background-color: #01b2ee;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.view_more:hover {
+  opacity: 0.8;
+}
+.card_container {
+  display: flex;
+}
+
+.title {
+  color: #4f5864;
+  font-size: 32px;
+  font-weight: 700;
+}

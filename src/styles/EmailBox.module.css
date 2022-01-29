@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 120px;
+  width: 90%;
+  background-color: #fff;
+  margin: 50px auto;
+}
+
+.search_text {
+  color: #01b2ee;
+}
+
+.email_subscription_container {
+  display: flex;
+  width: 40%;
+}
+.email_subscription_search {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.email_input {
+  width: 60%;
+  padding: 10px;
+  font-size: 15px;
+  color: #757575;
+  border: none;
+  outline: none;
+}
+
+.email_sub_btn {
+  background-color: #01b2ee;
+  color: #fff;
+  padding: 10px;
+  font-weight: 300;
+  border: none;
+  cursor: pointer;
+}
+
+.email_sub_btn:hover {
+  opacity: 0.9;
+}
